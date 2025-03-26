@@ -17,7 +17,7 @@ jobs:
     # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
       ACCOUNTS: >
         [
-        {"RES":"n", "REP":"n", "SSH_USER":"yyrsusnjoy36", "SSH_PASS":"@Wjk200111", "REALITY":"", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"54772", "UDP_PORT":"", "HOST":"s15.serv00.com", "ARGO_DOMAIN":"serv01.ima.ddns-ip.net", "ARGO_AUTH":"eyJhIjoiYzRiMTU3Y2EzMjNmNWRlODRlOTYxODE3ZTJiNDczNzgiLCJ0IjoiYmNhMmU5MzEtN2QxNy00ZmY3LWEzYTMtNGEwY2UxYmYyZmM5IiwicyI6Ik9UWmhNMlkyTlRrdE1EYzNPQzAwTVRVMUxXRmtOR010WVROalpqWXpZV05qWldKbSJ9"},
+        {"RES":"n", "REP":"n", "SSH_USER":"yyrsusnjoy36", "SSH_PASS":"@Wjk200111", "REALITY":"", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"54772", "UDP_PORT":"", "HOST":"s15.serv00.com", "ARGO_DOMAIN":"serv01.ima.ddns-ip.net", "ARGO_AUTH":"eyJhIjoiYzRiMTU3Y2EzMjNmNWRlODRlOTYxODE3ZTJiNDczNzgiLCJ0IjoiYmNhMmU5MzEtN2QxNy00ZmY3LWEzYTMtNGEwY2UxYmYyZmM5IiwicyI6Ik9UWmhNMlkyTlRrdE1EYzNPQzAwTVRVMUxXRmtOR010WVROalpqWXpZV05qWldKbSJ9"}
         ]
     steps:
       - name: Checkout Repository
