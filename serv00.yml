@@ -17,8 +17,7 @@ jobs:
     # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
       ACCOUNTS: >
         [
-        {"RES":"n", "REP":"n", "SSH_USER":"你的serv00账号名", "SSH_PASS":"你的serv00账号密码", "REALITY":"你serv00账号名.serv00.net", "SUUID":"自设UUID", "TCP1_PORT":"vless的tcp端口", "TCP2_PORT":"vmess的tcp端口", "UDP_PORT":"hy2的udp端口", "HOST":"s1.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
-        {"RES":"y", "REP":"y", "SSH_USER":"123456", "SSH_PASS":"7890000", "REALITY":"time.is", "SUUID":"73203ee6-b3fa-4a3d-b5df-6bb2f55073ad", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s16.serv00.com", "ARGO_DOMAIN":"你的argo固定域名", "ARGO_AUTH":"eyJhIjoiOTM3YzFjYWI88552NTFiYTM4ZTY0ZDQzRmlNelF0TkRBd1pUQTRNVEJqTUdVeCJ9"} 
+        {"RES":"n", "REP":"n", "SSH_USER":"jqpxjqkip", "SSH_PASS":"@Wjk200111", "REALITY":"", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"54772", "UDP_PORT":"", "HOST":"s15.serv00.com", "ARGO_DOMAIN":"serv01.ima.ddns-ip.net", "ARGO_AUTH":"eyJhIjoiYzRiMTU3Y2EzMjNmNWRlODRlOTYxODE3ZTJiNDczNzgiLCJ0IjoiYmNhMmU5MzEtN2QxNy00ZmY3LWEzYTMtNGEwY2UxYmYyZmM5IiwicyI6Ik9UWmhNMlkyTlRrdE1EYzNPQzAwTVRVMUxXRmtOR010WVROalpqWXpZV05qWldKbSJ9"},
         ]
     steps:
       - name: Checkout Repository
